@@ -3,13 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Dev5G.github.com/Tailwindcss-React-Responsive-Navbar",
+  "homepage": "https://Dev5G.github.io/Tailwindcss-React-Responsive-Navbar",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "deploy" : "gh-pages -d dist"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.16",
